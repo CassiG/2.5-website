@@ -43,6 +43,8 @@ h2 {
 
 img {
 	width: 100%;
+	border: 1px dotted #000;
+	border-spacing: 1px;
 }
 
 nav {
@@ -166,11 +168,13 @@ td {
 	p#about {
 		float:left;
 		width: 50%;
+		margin-top: 20px;
 	}
 
 	img.sleeping-puppy{
 		float: right;
 		width: 40%;
+		margin-top: 20px;
 	}
 
 	.footer {
