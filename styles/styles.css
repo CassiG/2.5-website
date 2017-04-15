@@ -36,6 +36,11 @@ h1 span {
 	text-transform: none;
 }
 
+h2 {
+	font-family: 'Rancho', cursive;
+	font-size: 30px;
+}
+
 img {
 	width: 100%;
 }
@@ -77,6 +82,24 @@ nav a:hover {
 	top: 20px;
 }
 
+/* Tables Styles */
+
+table {		
+	border: 1px solid #000;
+
+}
+
+th {
+	padding: 5px;
+	background-color: lightblue;
+}
+
+td {
+	padding: 10px;
+	background-color: lightgrey;
+	text-align: center;
+}
+
 
 
 @media only screen  and (min-width : 1024px) {
@@ -105,7 +128,7 @@ nav a:hover {
 
 /* Body Styles */
 
-	section.head-intro {
+	section.padding {
 		padding: 30px 0;
 	}
 	.home-first {
@@ -128,6 +151,16 @@ nav a:hover {
 
 	section#leia-facts {
 		padding: 30px 0px;
+	}
+
+	p#facts {
+		float:right;
+		    width: 40%;
+    padding: 35px 0;
+	}
+
+	section#table {
+		float: left;
 	}
 
 	p#about {
