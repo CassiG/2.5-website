@@ -8,6 +8,8 @@ body {
 	width: 80%;
 	display: block;
 	margin: 0 auto;
+	font-family: Gudea, sans-serif;
+	font-size: 14px;
 }
 /* Head Styles */
 
@@ -62,17 +64,25 @@ nav a:hover {
     text-decoration: none;
 }
 
+/* Body Styles */
+
+
+
 
 
 @media only screen  and (min-width : 1024px) {
+	img {
+		width: 70%;
+		display: block;
+		margin: 0 auto;
+		clear: both;
+	}
+
 	h1 {
 		float: left
 	}
 
 	.head-img {
-		width: 70%;
-		display: block;
-		margin: 0 auto;
 		margin-top: 50px;
 		clear: both;
 	}
@@ -82,5 +92,26 @@ nav a:hover {
 	}
 	nav a {
 		font-size: 20px;
+	}
+
+/* Body Styles */
+
+	section.head-intro {
+		padding: 10px 0;
+	}
+	.home-first {
+		float: left;
+		width: 50%;
+	}
+
+	.home-first-list {
+		float: right;
+		width: 30%;
+	}
+
+	main {
+    	width: 70%;
+    	display: block;
+    	margin: 0 auto;
 	}
 }
