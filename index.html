@@ -2,40 +2,49 @@
 <html>
 <head>
 	<title>Leia The Dog</title>
+
+	<link rel="stylesheet" type="text/css" href="styles/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Gudea:400,700|Rancho" rel="stylesheet">
+	<link rel="stylesheet" href="/font-awesome.min.css">
+
 </head>
 <body>
+
+	<header >
+		<h1><span>Leia</span> the Dog</h1>
 
 	<nav>
 		<a href="index.html">Home</a>
 		<a href="about.html">About</a>
 	</nav>
-
-	<header>
-		<h1>Leia the Dog</h1>
-		<figure>
-			<img src="images/leia-home.png" alt="leia at home">
-		</figure>
 	</header>
 
-	<main>
-		<p>Leia is a very happy black and white dog living in Seattle, WA. She has many hobbies, the main ones being:</p>
+	<img src="images/leia-home.png" class="head-img" alt="leia at home">
 
-		<ul>
+
+	<main>
+		<section class="padding">
+		<p class="home-first">Leia is a very happy black and white dog living in Seattle, WA. She has many hobbies, the main ones being:</p>
+
+		<ul class="home-first-list">
 			<li>Sleeping</li>
 			<li>Eating</li>
 			<li>Chasing Lights</li>
 			<li>Eating Socks</li>
 		</ul>
+		</section>
 		
 		<figure>
 			<img src="images/leia-kitchen.png" alt="Leia in the kitchen">
 			<figcaption>This is a dog who is interested in treats</figcaption>
 		</figure>
 
-		<p>Here are some additional fast facts about Leia.</p>
+		<section class="padding fact-section">
+		<p id="facts">These are some additional fast facts about Leia.</p>
 
+		<section id="table">
 		<h2>Favorites:</h2>
-		<table border="1">
+		<table>
 			<tr>
 				<th>Foods</th>
 				<th>Toys</th>
@@ -57,15 +66,19 @@
 				<td>The chair next to the window</td>
 			</tr>
 		</table>
+		</section>
+		</section>
 
-		<p>When Leia isn't enjoying any of the above things, she likes to peruse her favorite website <a href="http://moderndogmagazine.com/" target="_blank">The Modern Dog Magazine</a>. Leia, being a very savvy puppy who loves website design knows this site utalizes a lot of javascript in the code. It also uses <b>div</b> tags to group content together, as well as <b>classes</b> and <b>ids</b>, which are used in CSS. This site is great and utalizes the divs well to block content together to stack it on top of each other.</p>
+		<section id="leia-facts">
+				<img src="images/leia-sleeping.png" class="sleeping-puppy" alt="Sleeping Leia">
 
-		<figure>
-			<img src="images/leia-sleeping.png" alt="Sleeping Leia">
+		<p id="about">When Leia isn't enjoying any of the above things, she likes to peruse her favorite website <a href="http://moderndogmagazine.com/" target="_blank">The Modern Dog Magazine</a>. Leia, being a very savvy puppy who loves website design knows this site utalizes a lot of javascript in the code. It also uses <b>div</b> tags to group content together, as well as <b>classes</b> and <b>ids</b>, which are used in CSS. This site is great and utalizes the divs well to block content together to stack it on top of each other.<br /><br />
 
-		</figure>
+		But let's be honest, it's mostly sleeping.
 
-		<p><em>Thank you for taking the time to learn about Leia</em></p>
+		</p>
+		</section>
+		<p class="footer"><em>Thank you for taking the time to learn about Leia</em></p>
 	</main>
 </body>
 </html>
